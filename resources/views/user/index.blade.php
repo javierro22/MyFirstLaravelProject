@@ -66,18 +66,10 @@
     </div>
 
     <!-- Incluye los archivos de DataTables y jQuery -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <link href="https://cdn.datatables.net/v/dt/dt-2.0.8/datatables.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
     
     <!-- Inicializa DataTables -->
-    <script>
-        $(document).ready(function() {
-            $('#users-table').DataTable({
-                "language": {
-                    "url": "//cdn.datatables.net/plug-ins/1.11.5/i18n/Spanish.json"
-                }
-            });
-        });
-    </script>
+    
 @endsection
