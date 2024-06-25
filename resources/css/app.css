@@ -1,1 +1,36 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.banner{
+    /* color: white; */
+    position: absolute;
+    left: 0;
+    bottom: 5rem;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    border: none;
+    /* border-radius: 50%; */
+  }
+  .banner .card{
+    background-color: #0f4791;
+    /* padding: 2px; */
+    border-radius: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+  }
+  .banner .card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .banner .card:hover{
+    transform: translate(10px);
+  }
